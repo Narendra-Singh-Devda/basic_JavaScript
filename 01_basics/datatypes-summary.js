@@ -35,3 +35,32 @@ const myFunction = function(){
 console.log(typeof myObj);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+// ===========================================
+
+// Memory allocation in stack and heap
+
+
+// Stack (Primitive),   Heap (Non-Primitive)
+
+
+let myYoutubename = "hiteshchoudarydotcom"
+
+let anothername = myYoutubename;
+anothername = "chaiaurcode"
+console.log(myYoutubename);
+console.log(anothername);
+
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne;
+
+userTwo.email = "nikku@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
