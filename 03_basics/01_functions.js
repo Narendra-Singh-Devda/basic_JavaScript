@@ -14,7 +14,7 @@ function sayMyName(){
 
 //     console.log(number1 + number2);
 // }
-
+// addTwoNumbers(3, 4);
 function addTwoNumbers(number1, number2){
 
     // let result = number1 + number2
@@ -22,7 +22,7 @@ function addTwoNumbers(number1, number2){
     return number1 + number2
 }
 
-const result = addTwoNumbers(3, 5)
+// const result = addTwoNumbers(3, 5)
 
 // console.log("Result: ", result);
 
@@ -51,7 +51,7 @@ const user = {
 }
 
 function handleObject(anyobject){
-    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
+    console.log(`Username is ${anyobject.username} and price is ${anyobject.prices}`);
 }
 
 // handleObject(user)
@@ -66,5 +66,5 @@ function returnSecondValue(getArray){
     return getArray[1]
 }
 
-// console.log(returnSecondValue(myNewArray));
-console.log(returnSecondValue([200, 400, 500, 1000]));
+console.log(returnSecondValue(myNewArray));
+// console.log(returnSecondValue([200, 400, 500, 1000]));

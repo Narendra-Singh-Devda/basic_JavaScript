@@ -27,7 +27,7 @@ function one(){
 
 }
 
-// one()
+one()
 
 if (true) {
     const username = "hitesh"
@@ -52,7 +52,7 @@ function addone(num){
 
 
 
-addTwo(5)
-const addTwo = function(num){
-    return num + 2
-}
+// addTwo(5)
+// const addTwo = function(num){
+//     return num + 2
+// }
